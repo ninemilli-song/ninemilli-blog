@@ -6,5 +6,7 @@ module.exports = {
   useTabs: false,
   trailingComma: 'es5',
   bracketSpacing: true,
+  arrowParens: 'avoid',
+  bracketSameLine: true,
   plugins: ['prettier-plugin-tailwindcss'],
 }

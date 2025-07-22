@@ -15,6 +15,10 @@ export default function Footer() {
           <div>{`© ${new Date().getFullYear()}`}</div>
           <div>{` • `}</div>
           <Link href="/">{siteMetadata.title}</Link>
+          <div>{` • `}</div>
+          <Link href="https://beian.miit.gov.cn/">
+            <span>备案号：京ICP备2023040774号-2</span>
+          </Link>
         </div>
       </div>
     </footer>
